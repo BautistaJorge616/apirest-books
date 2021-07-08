@@ -16,7 +16,7 @@ import com.company.books.backend.response.LibroResponseRest;
 import com.company.books.backend.service.ILibroService;
 
 @RestController
-@RequestMapping("/v2")
+@RequestMapping("/v1")
 public class LibroRestController {
 	
 	@Autowired
