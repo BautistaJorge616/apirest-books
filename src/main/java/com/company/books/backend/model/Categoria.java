@@ -11,7 +11,17 @@ import javax.persistence.*;
 @Table(name="categorias")
 
 public class Categoria implements Serializable{
-
+	
+	public Categoria() {
+		super();
+	}
+	
+	public Categoria(Long id, String nombre, String descripcion) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+	}
 	/**
 	 * 
 	 */
